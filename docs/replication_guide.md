@@ -158,7 +158,7 @@ To verify successful replication, ensure:
 **Fix (PowerShell):**
 ```powershell
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-
+```
 ## 10. Notes for Evaluators
 
 - All scripts are self-contained and require no external datasets.  
@@ -170,3 +170,4 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 This project was developed as part of **PAAC Assignment 2**.  
 All implementation, validation, and analysis decisions were made by the author.  
 AI tools were used only as auxiliary aids, as disclosed in `AI_USAGE.md`.
+
