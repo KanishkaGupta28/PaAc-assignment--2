@@ -16,22 +16,25 @@ The project emphasizes physically valid reconstruction, reproducibility, and rig
 
 ---
 
-## 2. Model Overview
+## Model Overview
 
 This project follows **Track 1 (Classical Shadows)**.
 
-Instead of predicting the density matrix directly, the model outputs parameters of a **lower-triangular matrix \( L \)**. The density matrix is reconstructed using the **Cholesky decomposition**:
+Instead of predicting the density matrix directly, the model outputs the parameters of a **lower-triangular matrix** \( L \).  
+The density matrix is reconstructed using the **Cholesky decomposition**:
 
-\[
+$$
 \rho = \frac{L L^\dagger}{\mathrm{Tr}(L L^\dagger)}
-\]
+$$
 
 This parameterization guarantees:
-- Hermiticity by construction
-- Positive semi-definiteness
-- Unit trace via explicit normalization
 
-The model is trained using synthetically generated single-qubit measurement data derived from random valid quantum states.
+- **Hermiticity** by construction  
+- **Positive semi-definiteness**  
+- **Unit trace** via explicit normalization  
+
+The model is trained using **synthetically generated single-qubit measurement data** derived from randomly sampled valid quantum states.
+
 
 ---
 
@@ -84,8 +87,12 @@ All commands are designed to be executed from the project root directory.
 
 ## 7. AI Usage Disclosure
 
-AI-assisted tools were used during development in compliance with the project’s transparency requirements.  
-Full disclosure, prompt descriptions, and verification methodology are documented in:AI_USAGE.md
+## AI Attribution
+
+AI-assisted tools were used during development in compliance with the project’s transparency requirements.
+
+Full disclosure, prompt descriptions, and verification methodology are documented in `AI_USAGE.md`.
+
 ---
 
 ## 8. Conclusion
@@ -93,4 +100,5 @@ Full disclosure, prompt descriptions, and verification methodology are documente
 This work demonstrates a robust and physically grounded machine learning approach for quantum state reconstruction. By enforcing quantum constraints at the architectural level, the model achieves high accuracy, stability, and efficiency, meeting all requirements of the QCG × PaAC Open Project Assignment 2.
 
 ---
+
 
