@@ -1,6 +1,6 @@
 # Final Report  
 **QCG × PaAC Open Project — Winter 2025–2026**  
-**Assignment 2
+**Assignment 2**
 
 ---
 
@@ -100,6 +100,7 @@ Full disclosure, prompt descriptions, and verification methodology are documente
 This work demonstrates a robust and physically grounded machine learning approach for quantum state reconstruction. By enforcing quantum constraints at the architectural level, the model achieves high accuracy, stability, and efficiency, meeting all requirements of the QCG × PaAC Open Project Assignment 2.
 
 ---
+
 
 
 
