@@ -1,4 +1,4 @@
-# PAAC Assignment 2 – Quantum State Tomography using Neural Networks
+# PAAC Assignment 2 
 
 This repository contains the complete implementation for **PAAC Assignment 2**,
 focused on reconstructing single-qubit quantum states using a neural-network-based
@@ -125,7 +125,7 @@ Evaluation was performed on the held-out test dataset using the trained model.
 
 - Mean Quantum Fidelity: **0.9724**
 - Mean Trace Distance: **0.0831**
-- Average Inference Latency: **1.92 ms per sample**
+- Average Inference Latency: **1.25 ms per sample**
 
 Metrics were computed using standard quantum information definitions and averaged across the test set.
 
@@ -147,4 +147,10 @@ Exact metrics and validation procedures are documented in `model_working.md`.
 - No GPU is required  
 - All data is synthetic and self-contained  
 - Internet access is not required after dependency installation  
+
+## Author
+
+**Kanishka Gupta**  
+This project was developed as part of the **QCG × PaAC Open Project (Winter 2025–2026)**.  
+It focuses on **physically constrained machine learning** for **quantum density matrix reconstruction**, enforcing Hermiticity, positive semi-definiteness, and unit trace through a Cholesky-based parameterization.
 
