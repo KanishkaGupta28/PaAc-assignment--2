@@ -29,25 +29,26 @@ Key objectives:
 PaAC_Assignment 2/
 │
 ├── docs/
-│ ├── model_working.md # Model architecture and theory
-│ ├── replication_guide.md # Step-by-step reproduction instructions
-│ └── AI_USAGE.md # AI usage disclosure
+│   ├── model_working.md        # Model architecture and theory
+│   └── replication_guide.md   # Step-by-step reproduction instructions
 │
 ├── outputs/
-│ └── model.pt # Trained model checkpoint
+│   └── model.pt               # Trained model checkpoint
 │
 ├── src/
-│ ├── data_generation.py # Synthetic dataset generation
-│ ├── model.py # Neural network model definition
-│ ├── losses.py # Physically motivated loss functions
-│ ├── train.py # Training script
-│ ├── evaluate.py # Evaluation and validation script
-│ ├── train_data.pkl # Serialized training data
-│ └── test_data.pkl # Serialized test data
+│   ├── data_generation.py     # Synthetic dataset generation
+│   ├── model.py               # Neural network model definition
+│   ├── losses.py              # Physically motivated loss functions
+│   ├── train.py               # Training script
+│   ├── evaluate.py            # Evaluation and validation script
+│   ├── train_data.pkl         # Serialized training data
+│   └── test_data.pkl          # Serialized test data
 │
-├── requirements.txt # Python dependencies
-├── AI_USAGE.md # AI usage disclosure (root copy)
-└── README.md # Project overview (this file)
+├── final_report.md             # Required metrics + results (FINAL REPORT)
+├── requirements.txt            # Python dependencies
+├── AI_USAGE.md                 # Single AI usage disclosure (root only)
+└── README.md                   # Project overview
+
 ```
 
 ---
@@ -153,4 +154,5 @@ Exact metrics and validation procedures are documented in `model_working.md`.
 **Kanishka Gupta**  
 This project was developed as part of the **QCG × PaAC Open Project (Winter 2025–2026)**.  
 It focuses on **physically constrained machine learning** for **quantum density matrix reconstruction**, enforcing Hermiticity, positive semi-definiteness, and unit trace through a Cholesky-based parameterization.
+
 
